@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #adicionar-remover {
+    margin-top: 20px;
+  }
+  .quadrado {
+    width: 400px;
+    height: 400px;
+    background: #2186c4;
+    transition: width 1.5s;
+  /*   animation-name: rotacionar;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite; */
+  }
+  
+  .vermelho {
+    background: #b32e2e;
+  }
+  
+  @keyframes rotacionar {
+    from {
+      transform: rotate(0);
+    } to {
+      transform: rotate(360deg);
+    }
+  }
